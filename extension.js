@@ -22,8 +22,8 @@
             }
         };
         
-        bot.commands.aquelacarinhaCommand = {
-            command: 'aquelacarinha',  //The command to be called. With the standard command literal this would be: !bacon
+        bot.commands.lennyCommand = {
+            command: 'lenny',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
             functionality: function (chat, cmd) {
@@ -68,7 +68,7 @@
 
     
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "EBbot",
+        botName: "DS (SunriseBOT)",
         language: "portuguese",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
         maximumAfk: 120,
@@ -106,7 +106,7 @@
         opLink: null,
         rulesLink: null,
         themeLink: null,
-        fbLink: "https://facebook.com/groups/1497216277163895/",
+        fbLink: "",
         youtubeLink: null,
         website: "",
         intervalMessages: [],
@@ -117,7 +117,5 @@
 
     //Start the bot and extend it when it has loaded.
     $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
-    $.getScript('https://dl.dropboxusercontent.com/s/qggcze6yeq8l7hh/electro.js');
-    $.getScript('https://dl.dropboxusercontent.com/s/kxmk84c5hnaavkn/simsimicerto.js');
 
 }).call(this);
