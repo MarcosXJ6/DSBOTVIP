@@ -68,7 +68,7 @@
 
     
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "DS (SunriseBOT)",
+        botName: "Ds (SunriseBOT)",
         language: "portuguese",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt.json",
         maximumAfk: 120,
@@ -106,7 +106,7 @@
         opLink: null,
         rulesLink: null,
         themeLink: null,
-        fbLink: "",
+        fbLink: "https://facebook.com/groups/1497216277163895/",
         youtubeLink: null,
         website: "",
         intervalMessages: [],
@@ -117,5 +117,5 @@
 
     //Start the bot and extend it when it has loaded.
     $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
-
+    
 }).call(this);
